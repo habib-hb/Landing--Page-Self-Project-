@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+
+body{
+
+  background-color: #111111;
+  color: #f5efff;
+ 
+  
+  
+}
+
+main{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#header{
+    display: flex;
+    position: sticky;
+    background-color: #111111;
+    top:0;
+    justify-content: space-between;
+    padding: 0 8%;
+    align-items: center;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+#header-img{
+  width:15%;
+  max-width: 100px;
+}
+
+
+
+
+
+a{
+  display: inline-flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: lightblue;
+  margin: 0 8px;
+  flex-wrap: no-wrap;
+}
+
+a:hover{
+  color: #00f5f5;
+  border-bottom: 1px solid #00f5f5;
+}
+
+h2{
+  color: lightblue;
+  margin: 2% 4px;
+}
+
+ul,p,input{
+  margin-left: 4px;
+}
+
+section{
+  margin-bottom: 16px;
+}
+
+#section1 ul{
+  color: #00f5f5;
+  list-style: square;
+}
+
+#section2 p, #section3 ul{
+  color: #f5f5f5;
+}
+
+
+.pricing-headers{
+  color: #00f5f5;
+}
+
+
+#section3{
+  max-width: 480px;
+}
+
+#section3 ul>li{
+  display: flex;
+  list-style: circle; 
+  justify-content: space-between;
+  margin: 4px 0;
+  border-bottom: 1px solid grey;
+}
+
+#section3 ul>li:last-of-type{
+  border: none;
+}
+
+#section3 .pricing-text{
+  color: fff;
+}
+
+
+#form-section{
+  
+  max-width: 268px;
+  margin: 40 auto 40 auto;
+}
+
+#form-section legend{
+  color: lightblue;
+}
+
+#form-section input[type="email"]{
+   height: 32px;
+   width: 244px;
+   border: 2px solid grey;
+   border-radius: 8px;
+   
+}
+
+#form-section input[type="email"]:hover{
+     height: 34px;
+      border: 2px solid #00f5f5;
+      
+}
+
+#form-section input[type="submit"]{
+  display: block;
+  margin: 8px auto;
+  height: 24px;
+  background-color: #00f5f5;
+  border-radius: 4px;
+  
+}
+
+#form-section input[type="submit"]:hover{
+      background-color: lightblue;
+}
+
+
+@media only screen and (max-width: 600px){
+      a{
+  
+  display: block;
+  text-decoration: none;
+  color: lightblue;
+  margin: 0 8px;
+  flex-wrap: no-wrap;
+  border-bottom: 1px solid lightblue;
+}
+
+#section3 ul{
+      margin: 0;
+      /* padding: 2px; */
+}
+
+#form-section{
+  display: flex;
+  /* max-width: 50%; */
+  /* margin: 40px auto; */
+  margin: 0;
+}
+
+#form-section legend{
+  color: lightblue;
+}
+
+
+
+#form-section input[type="email"]{
+   height: 32px;
+   width: 100%;
+   border: 2px solid grey;
+   border-radius: 8px;
+   
+}
+
+#form-section input[type="email"]:hover{
+     height: 34px;
+      border: 2px solid #00f5f5;
+      
+}
+
+#form-section input[type="submit"]{
+  display: block;
+  /* margin: 8px auto; */
+  height: 24px;
+  width: 100%;
+  background-color: #00f5f5;
+  border-radius: 4px;
+  
+}
+
+/*Div Experiment*/
+.exp-div{
+  max-width: 80%;
+  margin: auto;
+}
+
+}
